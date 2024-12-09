@@ -5,6 +5,7 @@ This is the repository for the paper Cultural Commonsense Knowledge for Intercul
 
 - We used the api_request_parallel_processor.py script provided by OpenAI (https://github.com/openai/openai-cookbook/blob/main/examples/api_request_parallel_processor.py) to generate assertions with GPT. Full prompt templates are provided in our earlier manuscript (https://arxiv.org/pdf/2402.10689v1 - see Table 7 in Page 12).
 - For clustering, we used this script (https://github.com/UKPLab/sentence-transformers/blob/master/examples/applications/clustering/agglomerative.py) by the SBert authors.
+- For RAG, we used this script (https://github.com/UKPLab/sentence-transformers/blob/master/examples/applications/semantic-search/semantic_search.py) for retrieving relevant assertions given a narrative.
 
 ## Released dataset
 
